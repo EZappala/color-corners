@@ -1,0 +1,12 @@
+[package]
+name = "rlib"
+version = "0.1.0"
+authors = ["Éloïse Zappala eloise.zappala@proton.me"]
+edition = "2024"
+
+[lib]
+name = "librlib"
+crate-type = ["cdylib"]
+
+[dependencies]
+runity = { git = "https://github.com/dimitribobokov/runity.git" }

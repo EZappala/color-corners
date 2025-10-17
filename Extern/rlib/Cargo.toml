@@ -10,4 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 itertools = "0.14.0"
-# runity = { git = "https://github.com/dimitribobokov/runity.git" }
+runity = { git = "https://github.com/dimitribobokov/runity.git" }

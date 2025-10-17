@@ -9,4 +9,5 @@ name = "librlib"
 crate-type = ["cdylib"]
 
 [dependencies]
-runity = { git = "https://github.com/dimitribobokov/runity.git" }
+itertools = "0.14.0"
+# runity = { git = "https://github.com/dimitribobokov/runity.git" }

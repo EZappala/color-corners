@@ -254,6 +254,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 69107378737070212, guid: 7e046be2ad5c4994bb5830bf3bd5aefc, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 69107378737070212, guid: 7e046be2ad5c4994bb5830bf3bd5aefc, type: 3}
+      propertyPath: m_Constraints
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 545366849758037839, guid: 7e046be2ad5c4994bb5830bf3bd5aefc, type: 3}
+      propertyPath: move_speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 545366849758037839, guid: 7e046be2ad5c4994bb5830bf3bd5aefc, type: 3}
+      propertyPath: rigid_body
+      value: 
+      objectReference: {fileID: 970562863}
+    - target: {fileID: 545366849758037839, guid: 7e046be2ad5c4994bb5830bf3bd5aefc, type: 3}
+      propertyPath: deceleration_speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1257766848010122861, guid: 7e046be2ad5c4994bb5830bf3bd5aefc, type: 3}
       propertyPath: m_Name
       value: Forklift
@@ -298,7 +318,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -627,6 +648,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &970562863 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 69107378737070212, guid: 7e046be2ad5c4994bb5830bf3bd5aefc, type: 3}
+  m_PrefabInstance: {fileID: 363098640}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1081331223
 GameObject:
   m_ObjectHideFlags: 0

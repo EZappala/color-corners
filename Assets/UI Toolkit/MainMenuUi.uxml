@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/styles.uss?fileID=7433441132597879392&amp;guid=bb4fa8ff2994bf04d947e2c0ccdfc820&amp;type=3#styles" />
+    <ui:VisualElement name="VisualElement" style="margin-left: 10%; margin-right: 10%; margin-top: 20%;">
+        <ui:VisualElement name="VisualElement" class="bg-items" style="justify-content: space-between; flex-direction: column; align-items: center; align-self: center;">
+            <ui:Label text="Color Collector" name="Title" class="score-texts" style="margin-right: 20px; margin-top: 2px; margin-left: 20px; -unity-text-align: middle-left; white-space: nowrap; text-overflow: clip; padding-left: 2px; font-size: 40px;" />
+            <ui:Label text="press ESCAPE to start" name="Start" class="score-texts" style="margin-right: 20px; margin-top: 60px; margin-left: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip; padding-left: 2px; font-size: 28px; -unity-font-style: italic; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Fonts/Shrikhand/Shrikhand-Regular.ttf?fileID=12800000&amp;guid=239732382d5f16d44bfa1678a0208f15&amp;type=3#Shrikhand-Regular&quot;); color: rgb(230, 230, 230); margin-bottom: 60px;" />
+            <ui:Label text="Éloïse Zappala&#10;ez77426n@pace.edu" class="score-texts" style="margin-right: 20px; margin-top: 0; margin-left: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip; padding-left: 2px; font-size: 12px; -unity-font-style: normal; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Fonts/Shrikhand/Shrikhand-Regular.ttf?fileID=12800000&amp;guid=239732382d5f16d44bfa1678a0208f15&amp;type=3#Shrikhand-Regular&quot;); color: rgb(230, 230, 230); -unity-text-outline-color: rgb(230, 230, 230);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

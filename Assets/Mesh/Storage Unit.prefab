@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5045373824169208073, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c7d5cf09935cd0c4eb44f2284c93dc2c, type: 2}
+    - target: {fileID: -5045373824169208073, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03c90f462dca8bd4da118f41234a9da7, type: 2}
     - target: {fileID: -3910990755373119420, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -52,13 +60,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Storage Unit
       objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7413136461842847795}
+      insertIndex: 1
+      addedObject: {fileID: 2513836598354798285}
     - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6498143264166936939}
@@ -68,28 +84,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8771091787928289351, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
   m_PrefabInstance: {fileID: 2443149176220944055}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &7413136461842847795
-MeshCollider:
+--- !u!114 &2513836598354798285
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6367776210470029040}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3532800769973671739, guid: a2b49aa6854755b4babc65a5ebe24b74, type: 3}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fc999d09f3f4243bab988c823da139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ball
 --- !u!54 &6498143264166936939
 Rigidbody:
   m_ObjectHideFlags: 0

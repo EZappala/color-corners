@@ -1,0 +1,19 @@
+:root {
+}
+
+.score-texts {
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/Fonts/Shrikhand/Shrikhand-Regular.ttf?fileID=12800000&guid=239732382d5f16d44bfa1678a0208f15&type=3#Shrikhand-Regular");
+    -unity-font-style: normal;
+    color: rgb(229, 229, 229);
+    font-size: 28px;
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.bg-items {
+    background-color: rgb(174, 149, 46);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
